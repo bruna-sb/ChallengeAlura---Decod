@@ -1,0 +1,8 @@
+{
+    "DockerRun.DisableDockerrc": true,
+    "azure-iot-edge.defaultPlatform": {
+        "platform": "amd64",
+        "alias": null
+    },
+    "liveServer.settings.port": 5501
+}

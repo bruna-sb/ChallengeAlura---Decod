@@ -1,48 +1,45 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Decodificador e Codificador</title>
+    <title>Decodificador</title>
 </head>
-
 <body>
     <header>
-        <img class="logoAlura" src=logoAlura.png alt="logo da alura">
+
+        <img class="logoAlura" src="assets/logoAlura.png" alt="logo alura">
     </header>
     <main>
         <section>
-            <textarea class="text__area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            
             <div class="informacoes">
-                <img class="Frame 1" src="Frame 1.png" alt="ponto de exclamação">
+                <img class="exclamacao" src="assets/Frame 1.png" alt="ponto de exclamação">
+
             </div>
+
             <div class="botoes">
-                <button class="btn__encriptar" onclick="btnEncriptar()">Criptografar</button>
-                <button class="btn__desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+    <button class="btn-encriptar" onclick="btn-Encriptar()">Criptografar</button>
+    <button class="btn-desencriptar" onclick="btn-Desencriptar()">Descriptografar</button>
             </div>
         </section>
-        <img class="imagem-procurando" src="Imagem - procurando.png" alt="Robo com lupa procurando"
+
         <section>
-            <div class="mensagem-container">
-                    <textarea class="mensagem" cols="20" rows="10"></textarea>
-                <div>
-                    <h6 class="mensagemsubtitulo">Nenhuma mensagem encontrada.</h6>
-                    <p class="containerparagrafo">Digite um texto que você deseja <br>criptografar ou descriptografar.
-                    </p>
-                </div>
-                <button class="copiar" id="notificacao" onclick="btnCopiar()">Copiar</button>
-            </div>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+        <button class="btn-copiar">copiar</button>
+        </section>
 
     </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Bruna Schnorr.</p>
-    </footer>
+        <section> 
+            <footer class="rodape">
+                <p>Desenvolvido por Bruna Schnorr.</p>
+            </footer>
+        </section>
     <script src="script.js"></script>
 </body>
-
 </html>
